@@ -1,12 +1,10 @@
 import React, {MouseEvent} from 'react';
-// type OnOffType={
-//     on:boolean
-// }
+
 
 
     import {useState} from "react";
 
-export const OnOff = () => {
+export const UnControlledOnOff = () => {
 
     const [on, setOn]= useState(false)
 
