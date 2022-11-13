@@ -1,17 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import {UnControlledAccordion} from "./Components/Accrordion/UnControlledAccordion";
 import {UncontrolledRating} from "./Components/Rating/UnContorolledRating";
-import {UnControlledOnOff} from "./Components/OnOff/UnControlledOnOff";
+import {UnControlledOnOff} from "./Components/UnControlledOnOff/UnControlledOnOff";
+import {Accordion} from "./Components/Accrordion/Accordion";
+import {OnOff} from "./Components/OnOff/OnOff";
 
 function App() {
+
+    let [accordionCollapsed, setAccordionCollapsed] = useState<boolean>(false)
+    const [switchOn, setSwitchOn] = useState<boolean>(false)
 
 
     return (
         <div className="App">
-            <UnControlledAccordion titleValue={'Menu'}/>
-            <UnControlledAccordion titleValue={'I am a accrodion'}/>
-            <UncontrolledRating/> Сделать контролируемый акордион и он офф
+            <OnOff on={switchOn}
+            onChange={setSwitchOn}/>
+
+            <Accordion
+            titleValue={'Menu'}
+            collapsed={accordionCollapsed}
+            onChange={()=> {setAccordionCollapsed(!accordionCollapsed)}}
+            />
             <UnControlledOnOff/>
         </div>
     );
