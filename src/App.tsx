@@ -7,7 +7,7 @@ import {Rating} from "./Components/Rating/Rating";
 function App() {
     return (
         <div className="App">
-            <PageTitle title={'Stuuuuuudy'}/>
+            <PageTitle title={'Stuuuuuuuuuudy'}/>
             <Accordion titleValue={'Menu'} collapsed={false}/>
             <Accordion titleValue={'I am a accrodion'} collapsed={false}/>
             <Rating value={0}/>
