@@ -1,24 +1,24 @@
 import React from 'react';
 import './App.css';
-import {Accordion} from "./Components/Accrordion/Accordion";
 import {Rating} from "./Components/Rating/Rating";
 import {UnControlledOnOff} from "./Components/OnOff/OnOff";
 import {UnControlledAccordion} from "./Components/UnControlledAccrordion/UnControlledAccordion";
+import {UnControlledRating} from "./Components/UnControlledRating/UnControlledRating";
 
 
 function App() {
     return (
         <div className="App">
             <UnControlledOnOff/>
-        <UnControlledAccordion titleValue={'one'}/>
-        <UnControlledAccordion titleValue={'two'}/>
-
+            <UnControlledAccordion titleValue={'Menu'}/>
+            <UnControlledRating/>
+            <Rating value={3}/>
         </div>
     );
 }
 
-type PageTitle={
-    title:string
+type PageTitle = {
+    title: string
 }
 
 const PageTitle = (props: PageTitle) => {

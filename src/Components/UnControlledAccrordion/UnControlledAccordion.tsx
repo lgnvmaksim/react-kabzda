@@ -1,3 +1,4 @@
+import {useState} from "react";
 
 type AccordionPropsType = {
     titleValue:string
@@ -5,10 +6,11 @@ type AccordionPropsType = {
 }
 
 export const UnControlledAccordion = (props:AccordionPropsType) => {
-    const collapsed=true
+    const [collapsed, setCollapsed]= useState(false)
  return (
      <div>
          <AccordionTitle title={props.titleValue}/>
+         <button onClick={()=>{setCollapsed(!collapsed)}} >TOGGLE</button>
          {!collapsed && <AccordionBody/>}
      </div>
  )
@@ -28,6 +30,5 @@ export const AccordionBody = (props:any) => {
         <li>1</li>
         <li>2</li>
         <li>2</li>
-
     </ul>
 }
