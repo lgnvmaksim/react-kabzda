@@ -1,19 +1,21 @@
 import React, {MouseEvent} from 'react';
 import {useState} from "react";
 
-type PropsType={
-    on:boolean
+type PropsType = {
     onChange:(on:boolean)=>void
 }
 
-export const OnOff = (props:PropsType) => {
+export const UnControlledOnOff = (props:PropsType) => {
 
+    const [on, setOn] = useState(false)
 
-    const onClickOnHandler = () => {
+    const onClickOnHandler = (e: MouseEvent<HTMLDivElement>) => {
+        setOn(true)
         props.onChange(true)
     }
 
-    const onClickOffHandler = () => {
+    const onClickOffHandler = (e: MouseEvent<HTMLDivElement>) => {
+        setOn(false)
         props.onChange(false)
     }
 
@@ -23,7 +25,7 @@ export const OnOff = (props:PropsType) => {
         border: '1px solid black',
         display: 'inline-block',
         padding: '2px',
-        backgroundColor: props.on ? 'green' : 'white'
+        backgroundColor: on ? 'green' : 'white'
     }
     const offStyle = {
         width: '30px',
@@ -32,7 +34,7 @@ export const OnOff = (props:PropsType) => {
         display: 'inline-block',
         marginLeft: '2px',
         padding: '2px',
-        backgroundColor: props.on ? 'white' : 'red'
+        backgroundColor: on ? 'white' : 'red'
     }
     const indicatorStyle = {
         width: '10px',
@@ -41,7 +43,7 @@ export const OnOff = (props:PropsType) => {
         border: '1px solid black',
         display: 'inline-block',
         marginLeft: '5px',
-        backgroundColor: props.on ? 'green' : 'red'
+        backgroundColor: on ? 'green' : 'red'
     }
 
     return (
