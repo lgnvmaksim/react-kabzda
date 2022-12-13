@@ -1,22 +1,18 @@
 import React, {MouseEvent} from 'react';
 import {useState} from "react";
 
-type PropsType = {
-    onChange:(on:boolean)=>void
-}
 
-export const UnControlledOnOff = (props:PropsType) => {
+
+export const UnControlledOnOff = () => {
 
     const [on, setOn] = useState(false)
 
     const onClickOnHandler = (e: MouseEvent<HTMLDivElement>) => {
         setOn(true)
-        props.onChange(true)
     }
 
     const onClickOffHandler = (e: MouseEvent<HTMLDivElement>) => {
         setOn(false)
-        props.onChange(false)
     }
 
     const onStyle = {
