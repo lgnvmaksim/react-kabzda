@@ -5,7 +5,7 @@ import {UnControlledAccordion} from "./Components/UnControlledAccrordion/UnContr
 import {UnControlledRating} from "./Components/UnControlledRating/UnControlledRating";
 import {Accordion} from "./Components/Accrordion/Accordion";
 import {OnOff} from "./Components/OnOff/OnOff";
-import {UnControlledOnOff} from "./Components/UnControlledOnOff/UnControlledOnOff";
+
 
 
 
@@ -21,7 +21,7 @@ function App() {
                        collapsed={accordionCollapsed}
                        onChange={() => {setAccordionCollapsed(!accordionCollapsed)}}/>
             <Rating value={ratingValue} onClick={setRatingValue}/>
-            <UnControlledOnOff/>
+            <OnOff on={switchOn} onChange={setSwitchOn}/>
             <UnControlledAccordion titleValue={'blabla'}/>
         </div>
     )
