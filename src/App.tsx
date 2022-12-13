@@ -15,10 +15,7 @@ function App() {
 
     return (
         <div className="App">
-            {/*<OnOff*/}
-            {/*on={switchOn}*/}
-            {/*onChange={(on)=>{setSwitchOn((on))}}*/}
-            {/*/>*/}
+
             <Accordion titleValue={'Menu'}
                        collapsed={accordionCollapsed}
                        onChange={() => {setAccordionCollapsed(!accordionCollapsed)}}/>
