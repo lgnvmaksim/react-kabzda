@@ -23,7 +23,7 @@ function App() {
             <UnControlledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
             <UnControlledAccordion titleValue={'blabla'}/>
         </div>
-    );
+    )
 }
 
 type PageTitle = {
