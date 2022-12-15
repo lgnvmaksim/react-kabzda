@@ -2,9 +2,11 @@ import React, {useState} from 'react';
 import './App.css';
 import {Rating, RatingValueType} from "./Components/Rating/Rating";
 import {UnControlledAccordion} from "./Components/UnControlledAccrordion/UnControlledAccordion";
+import {UnControlledRating} from "./Components/UnControlledRating/UnControlledRating";
 import {Accordion} from "./Components/Accrordion/Accordion";
+import {OnOff} from "./Components/OnOff/OnOff";
 
-import {UnControlledOnOff} from "./Components/UnControlledOnOff/UncontrolledOnOff";
+
 
 
 function App() {
@@ -19,10 +21,10 @@ function App() {
                        collapsed={accordionCollapsed}
                        onChange={() => {setAccordionCollapsed(!accordionCollapsed)}}/>
             <Rating value={ratingValue} onClick={setRatingValue}/>
-            <UnControlledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
+            <OnOff on={switchOn} onChange={setSwitchOn}/>
             <UnControlledAccordion titleValue={'blabla'}/>
         </div>
-    );
+    )
 }
 
 type PageTitle = {
