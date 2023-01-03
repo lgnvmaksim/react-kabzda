@@ -29,6 +29,5 @@ export const AccordionBody = (props:any) => {
         <li>1</li>
         <li>2</li>
         <li>2</li>
-
     </ul>
 }

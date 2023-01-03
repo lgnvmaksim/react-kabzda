@@ -3,11 +3,12 @@ import {useState} from "react";
 
 type PropsType = {
     onChange:(on:boolean)=>void
+    defaultValue?:boolean
 }
 
 export const UnControlledOnOff = (props:PropsType) => {
 
-    const [on, setOn] = useState(false)
+    const [on, setOn] = useState(props.defaultValue ? props.defaultValue : false)
 
     const onClickOnHandler = (e: MouseEvent<HTMLDivElement>) => {
         setOn(true)
