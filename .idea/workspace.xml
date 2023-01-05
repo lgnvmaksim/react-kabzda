@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="test">
+    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="clean dirty, before lesson 12">
+      <change afterPath="$PROJECT_DIR$/src/Components/InputStories/Input.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Accrordion/Accordion-stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Accrordion/UnControlledAccordion.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/OnOff/OnOff-stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Rating/Rating-stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Rating/UnContorolledRating.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Rating/raiting.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Select/Select.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Select/Select.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UnControlledAccrordion/UnControlledAccordion-stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UnControlledOnOff/UnControlledonOff.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UnControlledOnOff/UnControlledOnOff.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UnControlledRating/UncontrolledRating-stories.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,27 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MyProjects/react-kabzda/src/Components/UnControlledRating&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\MyProjects\\react-kabzda\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/MyProjects/react-kabzda/src/Components/InputStories",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "D:\\MyProjects\\react-kabzda\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\react-kabzda\src\Components\InputStories" />
       <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledRating" />
       <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledOnOff" />
       <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledAccrordion" />
       <recent name="D:\MyProjects\react-kabzda\src\Components\Accrordion" />
-      <recent name="D:\MyProjects\react-kabzda\src\Components\OnOff" />
     </key>
   </component>
   <component name="RunManager" selected="npm.storybook">
@@ -140,6 +130,7 @@
       <workItem from="1671111862115" duration="625000" />
       <workItem from="1672751635064" duration="7302000" />
       <workItem from="1672902490003" duration="1067000" />
+      <workItem from="1672925656519" duration="2266000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1667383626029</created>
@@ -330,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672902932346</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="clean dirty, before lesson 12">
+      <created>1672925690116</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1672925690117</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +385,8 @@
     <MESSAGE value="done lesson 10 with storybook" />
     <MESSAGE value="done lesson 11 with storybook" />
     <MESSAGE value="done lesson 11 with storybook_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="done lesson 11 with storybook_2" />
+    <MESSAGE value="clean dirty, before lesson 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean dirty, before lesson 12" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
