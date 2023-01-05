@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 11 with storybook_2" />
+    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Accrordion/Accordion-stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Accrordion/UnControlledAccordion.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/OnOff/OnOff-stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Rating/Rating-stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Rating/UnContorolledRating.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Rating/raiting.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Select/Select.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Select/Select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UnControlledAccrordion/UnControlledAccordion-stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UnControlledOnOff/UnControlledonOff.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UnControlledOnOff/UnControlledOnOff.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UnControlledRating/UncontrolledRating-stories.tsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -328,19 +341,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="new_kabzda_with_storybook" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
