@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 11 with storybook_2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master_before_selected_lesson" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GzFY7us9MehrpEliXBUZBCASDv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyProjects/react-kabzda/src/Components/UnControlledRating&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\MyProjects\\react-kabzda\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledRating" />
+      <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledOnOff" />
+      <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledAccrordion" />
+      <recent name="D:\MyProjects\react-kabzda\src\Components\Accrordion" />
+      <recent name="D:\MyProjects\react-kabzda\src\Components\OnOff" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.storybook">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cra-ts/.storybook/main.js" working-dir="$PROJECT_DIR$/cra-ts/.storybook">
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.storybook" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.main.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="" />
+      <created>1667383551815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667383551815</updated>
+      <workItem from="1667383555374" duration="6797000" />
+      <workItem from="1667461362043" duration="8451000" />
+      <workItem from="1667564728475" duration="2598000" />
+      <workItem from="1667586814723" duration="1068000" />
+      <workItem from="1667803754053" duration="2258000" />
+      <workItem from="1667905585001" duration="2402000" />
+      <workItem from="1668325237699" duration="2694000" />
+      <workItem from="1668430725557" duration="2031000" />
+      <workItem from="1668693789215" duration="17000" />
+      <workItem from="1669010119028" duration="594000" />
+      <workItem from="1669026306119" duration="2830000" />
+      <workItem from="1669110066196" duration="1509000" />
+      <workItem from="1669641340665" duration="1154000" />
+      <workItem from="1669642530492" duration="1206000" />
+      <workItem from="1669644338632" duration="579000" />
+      <workItem from="1669645060503" duration="278000" />
+      <workItem from="1669646782097" duration="1242000" />
+      <workItem from="1669728816946" duration="1253000" />
+      <workItem from="1669730105262" duration="75000" />
+      <workItem from="1669808645686" duration="2618000" />
+      <workItem from="1669902280959" duration="1673000" />
+      <workItem from="1670059112272" duration="1162000" />
+      <workItem from="1670076804568" duration="1858000" />
+      <workItem from="1670254915653" duration="1671000" />
+      <workItem from="1670338222176" duration="1041000" />
+      <workItem from="1670398991667" duration="2100000" />
+      <workItem from="1670915451238" duration="2848000" />
+      <workItem from="1670932045785" duration="528000" />
+      <workItem from="1670932590193" duration="241000" />
+      <workItem from="1670944429503" duration="2512000" />
+      <workItem from="1671100998582" duration="855000" />
+      <workItem from="1671101929349" duration="1227000" />
+      <workItem from="1671110823533" duration="1003000" />
+      <workItem from="1671111862115" duration="625000" />
+      <workItem from="1672751635064" duration="7302000" />
+      <workItem from="1672902490003" duration="1067000" />
+    </task>
+    <task id="LOCAL-00001" summary="first push">
+      <created>1667383626029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667383626029</updated>
+    </task>
+    <task id="LOCAL-00002" summary="render components">
+      <created>1667463439462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667463439462</updated>
+    </task>
+    <task id="LOCAL-00003" summary="kabzda 07 done">
+      <created>1667566677870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667566677870</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create uncontrolled components before homework">
+      <created>1667908060559</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667908060559</updated>
+    </task>
+    <task id="LOCAL-00005" summary="done 09 lesson">
+      <created>1668327953568</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668327953568</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit before start 10 lesson">
+      <created>1669641368967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669641368967</updated>
+    </task>
+    <task id="LOCAL-00007" summary="start lesson 06">
+      <created>1669644594907</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669644594907</updated>
+    </task>
+    <task id="LOCAL-00008" summary="start lesson 06">
+      <created>1669644679853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669644679853</updated>
+    </task>
+    <task id="LOCAL-00009" summary="start lesson 06">
+      <created>1669644774925</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669644774925</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test commit">
+      <created>1669644828471</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669644828471</updated>
+    </task>
+    <task id="LOCAL-00011" summary="done lesson 6, commit before homework">
+      <created>1669647385329</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669647385329</updated>
+    </task>
+    <task id="LOCAL-00012" summary="done lesson 07">
+      <created>1669730153667</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669730153667</updated>
+    </task>
+    <task id="LOCAL-00013" summary="done lesson 08">
+      <created>1669811368203</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669811368203</updated>
+    </task>
+    <task id="LOCAL-00014" summary="done lesson 08.01">
+      <created>1669903961888</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669903961888</updated>
+    </task>
+    <task id="LOCAL-00015" summary="done lesson 10">
+      <created>1670254946745</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670254946745</updated>
+    </task>
+    <task id="LOCAL-00016" summary="done lesson 11">
+      <created>1670256595365</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670256595365</updated>
+    </task>
+    <task id="LOCAL-00017" summary="done lesson 13">
+      <created>1670918209190</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670918209190</updated>
+    </task>
+    <task id="LOCAL-00018" summary="done lesson 13 (test commit)">
+      <created>1670932384196</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670932384196</updated>
+    </task>
+    <task id="LOCAL-00019" summary="done lesson 13 (test commit2)">
+      <created>1670932626072</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670932626072</updated>
+    </task>
+    <task id="LOCAL-00020" summary="done lesson 13 (test commit3 - delete UnControlledOnOff-stories.tsx)">
+      <created>1670932805325</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670932805325</updated>
+    </task>
+    <task id="LOCAL-00021" summary="done 14 lesson">
+      <created>1670946957103</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670946957103</updated>
+    </task>
+    <task id="LOCAL-00022" summary="done 14 lesson">
+      <created>1671101071282</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671101071282</updated>
+    </task>
+    <task id="LOCAL-00023" summary="done 14 lesson">
+      <created>1671111554944</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671111554944</updated>
+    </task>
+    <task id="LOCAL-00024" summary="new storybook">
+      <created>1672751807804</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1672751807804</updated>
+    </task>
+    <task id="LOCAL-00025" summary="done lesson 10 with storybook">
+      <created>1672754932226</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672754932226</updated>
+    </task>
+    <task id="LOCAL-00026" summary="done lesson 11 with storybook">
+      <created>1672757583161</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1672757583161</updated>
+    </task>
+    <task id="LOCAL-00027" summary="done lesson 11 with storybook_2">
+      <created>1672902932346</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672902932346</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="new_kabzda_with_storybook" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first push" />
+    <MESSAGE value="render components" />
+    <MESSAGE value="kabzda 07 done" />
+    <MESSAGE value="create uncontrolled components before homework" />
+    <MESSAGE value="done 09 lesson" />
+    <MESSAGE value="commit before start 10 lesson" />
+    <MESSAGE value="Revert &quot;done 09 lesson&quot;&#10;&#10;This reverts commit cd222efb" />
+    <MESSAGE value="start lesson 06" />
+    <MESSAGE value="test commit" />
+    <MESSAGE value="done lesson 6, commit before homework" />
+    <MESSAGE value="done lesson 07" />
+    <MESSAGE value="done lesson 08" />
+    <MESSAGE value="done lesson 08.01" />
+    <MESSAGE value="done lesson 10" />
+    <MESSAGE value="done lesson 11" />
+    <MESSAGE value="done lesson 13" />
+    <MESSAGE value="done lesson 13 (test commit)" />
+    <MESSAGE value="done lesson 13 (test commit2)" />
+    <MESSAGE value="done lesson 13 (test commit3 - delete UnControlledOnOff-stories.tsx)" />
+    <MESSAGE value="done 14 lesson" />
+    <MESSAGE value="new storybook" />
+    <MESSAGE value="done lesson 10 with storybook" />
+    <MESSAGE value="done lesson 11 with storybook" />
+    <MESSAGE value="done lesson 11 with storybook_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="done lesson 11 with storybook_2" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+</project>
