@@ -18,9 +18,6 @@ function App() {
             {/*on={switchOn}*/}
             {/*onChange={(on)=>{setSwitchOn((on))}}*/}
             {/*/>*/}
-            <Accordion titleValue={'Menu'}
-                       collapsed={accordionCollapsed}
-                       onChange={() => {setAccordionCollapsed(!accordionCollapsed)}}/>
             <Rating value={ratingValue} onClick={setRatingValue}/>
             <UnControlledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
             <UnControlledAccordion titleValue={'blabla'}/>

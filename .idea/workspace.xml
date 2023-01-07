@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 13">
-      <change afterPath="$PROJECT_DIR$/src/Components/Select/Select.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Select/Select.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 14">
+      <change afterPath="$PROJECT_DIR$/src/Components/Select/Select.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Accrordion/Accordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Accrordion/Accordion.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Accrordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Accrordion/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Select/Select.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Select/Select.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Select/Select.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -70,6 +69,16 @@
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cra-ts/.storybook/main.js" working-dir="$PROJECT_DIR$/cra-ts/.storybook">
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -83,7 +92,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.storybook" />
-        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js" />
@@ -135,7 +144,9 @@
       <workItem from="1672751635064" duration="7302000" />
       <workItem from="1672902490003" duration="1067000" />
       <workItem from="1672925656519" duration="4238000" />
-      <workItem from="1672985186587" duration="2969000" />
+      <workItem from="1672985186587" duration="3457000" />
+      <workItem from="1673072229108" duration="5552000" />
+      <workItem from="1673098668424" duration="3856000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1667383626029</created>
@@ -347,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672930869579</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="done lesson 14">
+      <created>1672988762108</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1672988762108</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="render components" />
     <MESSAGE value="kabzda 07 done" />
     <MESSAGE value="create uncontrolled components before homework" />
     <MESSAGE value="done 09 lesson" />
@@ -405,7 +422,8 @@
     <MESSAGE value="clean dirty, before lesson 12" />
     <MESSAGE value="done lesson 12" />
     <MESSAGE value="done lesson 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="done lesson 13" />
+    <MESSAGE value="done lesson 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="done lesson 14" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
