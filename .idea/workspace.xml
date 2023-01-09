@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 14">
-      <change afterPath="$PROJECT_DIR$/src/Components/Select/Select.module.css" afterDir="false" />
+    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 16">
+      <change afterPath="$PROJECT_DIR$/src/Components/ReactMemo/ReactMemo.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Select/Select.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Select/Select.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Select/Select.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -47,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MyProjects/react-kabzda/src/Components/InputStories&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyProjects/react-kabzda/src/Components/UnControlledAccrordion&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,11 +55,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledAccrordion" />
       <recent name="D:\MyProjects\react-kabzda\src\Components\InputStories" />
       <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledRating" />
       <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledOnOff" />
-      <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledAccrordion" />
       <recent name="D:\MyProjects\react-kabzda\src\Components\Accrordion" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledAccrordion\reducer.tsx" />
     </key>
   </component>
   <component name="RunManager" selected="npm.storybook">
@@ -146,7 +146,10 @@
       <workItem from="1672925656519" duration="4238000" />
       <workItem from="1672985186587" duration="3457000" />
       <workItem from="1673072229108" duration="5552000" />
-      <workItem from="1673098668424" duration="3856000" />
+      <workItem from="1673098668424" duration="4178000" />
+      <workItem from="1673230538608" duration="3251000" />
+      <workItem from="1673233838874" duration="1067000" />
+      <workItem from="1673241886288" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1667383626029</created>
@@ -365,7 +368,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672988762108</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="done lesson 15">
+      <created>1673102838914</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673102838914</updated>
+    </task>
+    <task id="LOCAL-00033" summary="done lesson 16">
+      <created>1673234905902</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1673234905902</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,8 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kabzda 07 done" />
-    <MESSAGE value="create uncontrolled components before homework" />
     <MESSAGE value="done 09 lesson" />
     <MESSAGE value="commit before start 10 lesson" />
     <MESSAGE value="Revert &quot;done 09 lesson&quot;&#10;&#10;This reverts commit cd222efb" />
@@ -423,7 +438,9 @@
     <MESSAGE value="done lesson 12" />
     <MESSAGE value="done lesson 13" />
     <MESSAGE value="done lesson 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="done lesson 14" />
+    <MESSAGE value="done lesson 15" />
+    <MESSAGE value="done lesson 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="done lesson 16" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
