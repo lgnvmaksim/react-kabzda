@@ -12,9 +12,9 @@ export const WithValue = () => {
     const [value, setValue] = useState(2)
     return <>
         <Select value={value} onChange={setValue} items={[
-            {value: 1, title: 'Max'},
-            {value: 2, title: 'Veronika'},
-            {value: 3, title: 'Sofia'}
+            {id: 1, title: 'Max'},
+            {id: 2, title: 'Veronika'},
+            {id: 3, title: 'Sofia'}
         ]}/>
     </>
 }
@@ -24,9 +24,9 @@ export const WithValue = () => {
         return(
             <>
         <Select onChange={setValue} value={value} items={[
-                {title: 'Max', value: 1},
-        {title: 'Veronika', value: 2},
-        {title: 'Sofia', value: 3}
+                {title: 'Max', id: 1},
+        {title: 'Veronika', id: 2},
+        {title: 'Sofia', id: 3}
     ]}/>
 
     </>
