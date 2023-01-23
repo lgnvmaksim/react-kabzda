@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 19">
-      <change afterPath="$PROJECT_DIR$/src/otherStories/UseState.stories.tsx" afterDir="false" />
+    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 20">
+      <change afterPath="$PROJECT_DIR$/src/otherStories/UseEffect.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ReactMemo/ReactMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/otherStories/ReactMemo.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ReactMemo/UseMemoUseCallback.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/otherStories/UseMemoUseCallback.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,7 @@
       <workItem from="1673316230836" duration="3464000" />
       <workItem from="1673617255901" duration="25000" />
       <workItem from="1673833568730" duration="3079000" />
-      <workItem from="1674475847296" duration="1759000" />
+      <workItem from="1674475847296" duration="3979000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1667383626029</created>
@@ -414,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673836661131</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="done lesson 20">
+      <created>1674477938070</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674477938070</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start lesson 06" />
     <MESSAGE value="test commit" />
     <MESSAGE value="done lesson 6, commit before homework" />
     <MESSAGE value="done lesson 07" />
@@ -472,7 +476,8 @@
     <MESSAGE value="done lesson 17" />
     <MESSAGE value="done lesson 18" />
     <MESSAGE value="done lesson 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="done lesson 19" />
+    <MESSAGE value="done lesson 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="done lesson 20" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
