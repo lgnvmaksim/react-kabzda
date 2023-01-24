@@ -28,4 +28,24 @@ export const  SimpleExample = () => {
         Hello, {counter}
         <button onClick={()=>setCounter(counter+1)}>+</button>
     </>
+} //Примеры работы с зависимостями useEffect
+
+export const Example2 = () => {
+    const [fake, setFake] = useState(1)
+    const [counter, setCounter] = useState(1)
+
+    useEffect(()=>{
+        setInterval(()=>{
+           setCounter((state) => state+1)
+        }, 1000)
+    }, [])
+
+
+
+    return <>
+        Hello, counter: {counter}, fake: {fake}
+        {/*<button onClick={()=>setFake(fake+1)}>fake</button>*/}
+        {/*<button onClick={()=>setCounter(counter+1)}>counter</button>*/}
+    </>
 }
+
