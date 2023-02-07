@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 22">
-      <change afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="55ae71d8-4db3-46a7-8b0d-e1ba015b71f1" name="Changes" comment="done lesson 23">
+      <change afterPath="$PROJECT_DIR$/src/Components/Clock/AnalogClockView.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Clock/AnalogClockView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Clock/DigitalClockView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Clock/Clock.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Clock/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,20 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/MyProjects/react-kabzda/src/Components/Clock",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "D:\\MyProjects\\react-kabzda\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyProjects/react-kabzda/src/Components/Clock&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\MyProjects\\react-kabzda\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyProjects\react-kabzda\src\Components\Clock" />
@@ -64,6 +66,7 @@
       <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledRating" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="D:\MyProjects\react-kabzda\src\Components\Clock\AnalogClockView.tsx" />
       <recent name="D:\MyProjects\react-kabzda\src\Components\UnControlledAccrordion\reducer.tsx" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -162,7 +165,8 @@
       <workItem from="1673833568730" duration="3079000" />
       <workItem from="1674475847296" duration="4084000" />
       <workItem from="1674530666741" duration="1177000" />
-      <workItem from="1674641149162" duration="2205000" />
+      <workItem from="1674641149162" duration="2344000" />
+      <workItem from="1675775993917" duration="3656000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1667383626029</created>
@@ -437,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674531769180</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="done lesson 23">
+      <created>1674643461866</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1674643461866</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done lesson 07" />
     <MESSAGE value="done lesson 08" />
     <MESSAGE value="done lesson 08.01" />
     <MESSAGE value="done lesson 10" />
@@ -495,7 +505,8 @@
     <MESSAGE value="done lesson 20" />
     <MESSAGE value="done lesson 21" />
     <MESSAGE value="done lesson 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="done lesson 22" />
+    <MESSAGE value="done lesson 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="done lesson 23" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
